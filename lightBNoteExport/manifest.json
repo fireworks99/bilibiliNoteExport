@@ -1,0 +1,29 @@
+{
+	"name": "bilibiliNoteExport",
+	"description": "导出b站视频笔记",
+	"version": "1.0",
+	"manifest_version": 3,
+
+	"background": {
+		"service_worker": "background.js"
+	},
+	"permissions": ["scripting"],
+	"host_permissions": [
+  	  "*://*.bilibili.com/*"
+	],
+	"action": {
+      "default_icon": {
+		"16": "icon.png",
+		"32": "icon.png",
+		"48": "icon.png",
+		"128": "icon.png"
+	  },
+      "default_title": "导出B站视频笔记"
+    },
+    "icons": {
+		"16": "icon.png",
+		"32": "icon.png",
+		"48": "icon.png",
+		"128": "icon.png"
+	}
+}
