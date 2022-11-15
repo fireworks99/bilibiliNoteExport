@@ -40,14 +40,16 @@ function main() {
   }
 
   //enlarge all images
-  let qlImagePreview = document.getElementsByClassName("ql-image-preview");
-  for (let i = 0; i < qlImagePreview.length; i++) {
-    qlImagePreview[i].style.width = "100%";
-  }
-  let imgPreview = document.getElementsByClassName("img-preview");
-  for (let i = 0; i < imgPreview.length; i++) {
-    imgPreview[i].style.width = "100%";
-  }
+  // {
+  //   let qlImagePreview = document.getElementsByClassName("ql-image-preview");
+  //   for (let i = 0; i < qlImagePreview.length; i++) {
+  //     qlImagePreview[i].style.width = "100%";
+  //   }
+  //   let imgPreview = document.getElementsByClassName("img-preview");
+  //   for (let i = 0; i < imgPreview.length; i++) {
+  //     imgPreview[i].style.width = "100%";
+  //   }
+  // }
 
   //process time tags
   let note = document.getElementsByClassName("note-single-item--selected");
